@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxNmE3ZjhlYi01ZjEyLTRjMWItODI3OC03NzNmYzQ3ZTEzYTgiLCJyb2xlcyI6WyJTVVBFUl9BRE1JTiJdLCJuYW1lIjoiZmFuaGkxMTIxMUBnbWFpbC5jb20iLCJlbWFpbGFkZHJlc3MiOiJmYW5oaTExMjExQGdtYWlsLmNvbSIsIm5hbWVpZGVudGlmaWVyIjoiZmFuaGkxMTIxMUBnbWFpbC5jb20iLCJpc3MiOiJNZW50b3JVUy1sb2NhbCIsImlhdCI6MTcyMzc5NTQwMSwiZXhwIjoxNzI2Mzg3NDAxfQ.RJnWZnYPtdZ4SYnLhYc_2JVtk-075m4SCOj0fAxZPsz90Z21L8SrWnFy-auw6k98RObTxISSN4jl2d9U5HW5vQ'</initValue>
+      <name>token</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'16a7f8eb-5f12-4c1b-8278-773fc47e13a8'</initValue>
+      <name>myId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'7a35bb6b-c8f2-4387-bfed-51a576b986a2'</initValue>
+      <name>nonUser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'6a4ac01d-94e8-4f90-bd18-bf40840d4169'</initValue>
+      <name>groupId</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,771 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Update Profile,,,,25-08-2024 16:07:37,25-08-2024 16:07:54,16.852s,FAILED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:38,25-08-2024 16:07:40,2.700s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:38,25-08-2024 16:07:38,0.122s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:38,25-08-2024 16:07:38,0.121s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:38,25-08-2024 16:07:38,0.033s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:38,25-08-2024 16:07:38,0.003s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:38,25-08-2024 16:07:40,1.585s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:40,25-08-2024 16:07:40,0.031s,PASSED
+"if (personalEmail == """")",,,,25-08-2024 16:07:40,25-08-2024 16:07:40,0.003s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:40,25-08-2024 16:07:40,0.002s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:40,25-08-2024 16:07:40,0.003s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:40,25-08-2024 16:07:40,0.274s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:40,25-08-2024 16:07:40,0.113s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:40,25-08-2024 16:07:40,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:40,25-08-2024 16:07:40,0.005s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:40,25-08-2024 16:07:40,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:40,25-08-2024 16:07:40,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:40,25-08-2024 16:07:40,0.041s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:40,25-08-2024 16:07:40,0.026s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:40,25-08-2024 16:07:40,0.002s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:40,25-08-2024 16:07:40,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:40,25-08-2024 16:07:40,0.001s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:40,25-08-2024 16:07:40,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.066s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.006s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.020s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.003s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.002s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.068s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.006s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.003s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.025s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.002s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.002s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.067s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.008s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.024s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.004s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.061s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.006s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.025s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.003s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.064s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.007s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.022s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.003s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.055s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.007s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.017s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.003s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.002s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.340s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.004s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.012s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.022s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.003s,PASSED
+"if (personalEmail == """")",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.252s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.090s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.003s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.021s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.002s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.027s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.002s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:41,25-08-2024 16:07:42,0.075s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.005s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:41,25-08-2024 16:07:41,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:41,25-08-2024 16:07:42,0.034s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.003s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.001s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.001s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.438s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.001s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.005s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.017s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.002s,PASSED
+"if (personalEmail == """")",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.001s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.024s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.367s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.341s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.005s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.018s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.002s,PASSED
+"if (personalEmail == """")",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.001s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.291s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.139s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.019s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.019s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.002s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.001s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:42,25-08-2024 16:07:42,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.058s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.001s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.027s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.003s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.001s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.069s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.005s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.030s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.003s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.075s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.007s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.032s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.003s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.001s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.057s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.005s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.029s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.003s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.001s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.067s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.001s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.043s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.002s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.001s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.042s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.015s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.002s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.001s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.140s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.005s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.108s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.003s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.052s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.001s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.023s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.004s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.001s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:43,25-08-2024 16:07:44,0.415s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.017s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.003s,PASSED
+"if (personalEmail == """")",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.001s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:43,25-08-2024 16:07:43,0.001s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:43,25-08-2024 16:07:44,0.371s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.679s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.032s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.005s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.019s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.002s,PASSED
+"if (personalEmail == """")",,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.001s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.570s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:44,25-08-2024 16:07:45,0.464s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.005s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.020s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.001s,PASSED
+"if (personalEmail == """")",,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.001s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:44,25-08-2024 16:07:44,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:44,25-08-2024 16:07:45,0.374s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.403s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.016s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.031s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.002s,PASSED
+"if (personalEmail == """")",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.001s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.272s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.047s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.001s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.021s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.003s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.001s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.039s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.001s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.014s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.002s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.001s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.040s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.003s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.017s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.002s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:45,25-08-2024 16:07:46,0.043s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.001s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.005s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.017s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:45,25-08-2024 16:07:45,0.001s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:45,25-08-2024 16:07:46,0.001s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.064s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.003s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.038s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.002s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.475s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.001s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.005s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.038s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.002s,PASSED
+"if (personalEmail == """")",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.001s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.399s,FAILED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.344s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.019s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.001s,PASSED
+"if (personalEmail == """")",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.001s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.001s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.228s,FAILED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.038s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.014s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.003s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:46,25-08-2024 16:07:46,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.220s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.015s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.002s,PASSED
+"if (personalEmail == """")",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.001s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.183s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.230s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.016s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.001s,PASSED
+"if (personalEmail == """")",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.001s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.193s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.043s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.005s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.018s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.002s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.230s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.005s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.023s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.002s,PASSED
+"if (personalEmail == """")",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.001s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.183s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:47,25-08-2024 16:07:48,0.262s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.001s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.003s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.072s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.003s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.001s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:47,25-08-2024 16:07:47,0.001s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:47,25-08-2024 16:07:48,0.167s,FAILED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.054s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.031s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.002s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile,,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.054s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.031s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.003s,FAILED
+"if (personalEmail == """")",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+"formattedBirthDate = birthDate + ""T00:00:00.000+00:00""",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.000s,PASSED
+"if (birthDate == """")",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.000s,PASSED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_InvalidFields,,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.221s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.002s,PASSED
+userId = myId,,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+"if (personalEmail == """")",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+else,,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.002s,PASSED
+return java.util.UUID.randomUUID().toString(),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.006s,PASSED
+print(userId),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.003s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":userId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.003s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.004s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.015s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.004s,FAILED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_InvalidFields,,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.035s,FAILED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+userId = myId,,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.000s,PASSED
+"if (personalEmail == """")",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+print(userId),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":userId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":personalEmail, ""gender"":gender])",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.003s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.013s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.002s,FAILED
+if (expected.intValue() == 200),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.312s,PASSED
+if (isAuthorize),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.010s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.003s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.002s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.016s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.003s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.116s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.124s,PASSED
+if (isAuthorize),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.000s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.000s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.048s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:48,25-08-2024 16:07:49,0.045s,PASSED
+if (isAuthorize),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.000s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.001s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.000s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:48,25-08-2024 16:07:48,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:48,25-08-2024 16:07:49,0.028s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.061s,PASSED
+if (isAuthorize),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.003s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.038s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.006s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.058s,PASSED
+if (isAuthorize),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.040s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.050s,PASSED
+if (isAuthorize),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.034s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.063s,PASSED
+if (isAuthorize),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.048s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.050s,PASSED
+if (isAuthorize),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.003s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.034s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.052s,PASSED
+if (isAuthorize),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.003s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.033s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.057s,PASSED
+if (isAuthorize),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.036s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.050s,PASSED
+if (isAuthorize),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.030s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.064s,PASSED
+if (isAuthorize),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.010s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.036s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.072s,PASSED
+if (isAuthorize),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.005s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.048s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.054s,FAILED
+if (isAuthorize),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.031s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.002s,FAILED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.044s,FAILED
+if (isAuthorize),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.022s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.002s,FAILED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.053s,PASSED
+if (isAuthorize),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.005s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.031s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:49,25-08-2024 16:07:50,0.302s,PASSED
+if (isAuthorize),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.005s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:49,25-08-2024 16:07:49,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:49,25-08-2024 16:07:50,0.281s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:50,25-08-2024 16:07:50,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:50,25-08-2024 16:07:50,0.085s,FAILED
+if (isAuthorize),,,,25-08-2024 16:07:50,25-08-2024 16:07:50,0.001s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:50,25-08-2024 16:07:50,0.000s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:50,25-08-2024 16:07:50,0.000s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:50,25-08-2024 16:07:50,0.000s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:50,25-08-2024 16:07:50,0.005s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:50,25-08-2024 16:07:50,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:50,25-08-2024 16:07:50,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:50,25-08-2024 16:07:50,0.063s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:50,25-08-2024 16:07:50,0.003s,FAILED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:50,25-08-2024 16:07:54,4.071s,FAILED
+if (isAuthorize),,,,25-08-2024 16:07:50,25-08-2024 16:07:50,0.000s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:50,25-08-2024 16:07:50,0.000s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:50,25-08-2024 16:07:50,0.000s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:50,25-08-2024 16:07:50,0.000s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:50,25-08-2024 16:07:50,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:50,25-08-2024 16:07:50,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:50,25-08-2024 16:07:50,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:50,25-08-2024 16:07:54,4.050s,FAILED
+,,,,,,,
+Test Cases/TC_Update Profile_Upload Avatar,,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.042s,PASSED
+if (isAuthorize),,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.001s,PASSED
+else,,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.002s,PASSED
+projectPath = getProjectDir(),,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.000s,PASSED
+"filePath = projectPath + ""\"" + file",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.001s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.000s,PASSED
+"req = findTestObject(""API_Update Profile_Upload Avatar"", [""file"":filePath])",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.019s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_Authorization,,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.206s,PASSED
+"tokenValue = """"",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.001s,PASSED
+"if (tokenState == ""empty"")",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.002s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.002s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":"""", ""gender"":gender])",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.006s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.004s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.014s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.002s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_Authorization,,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.031s,PASSED
+"tokenValue = """"",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.001s,PASSED
+"if (tokenState == ""empty"")",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.000s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":"""", ""gender"":gender])",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.003s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.013s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Update Profile_Authorization,,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.028s,PASSED
+"tokenValue = """"",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.000s,PASSED
+"if (tokenState == ""empty"")",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.001s,PASSED
+"else if (tokenState == ""incorrect"")",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.001s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.000s,PASSED
+"req = findTestObject(""API_Update Profile"", [""userId"":myId, ""name"":name, ""phone"":phone, ""birthDate"":birthDate, ""personalEmail"":"""", ""gender"":gender])",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.003s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.010s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 16:07:54,25-08-2024 16:07:54,0.002s,PASSED

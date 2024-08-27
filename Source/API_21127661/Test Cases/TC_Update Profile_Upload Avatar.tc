@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Update Profile_Upload Avatar</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>52e44916-225d-4ed4-9169-2f184b6a096d</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\Users\\fanhi\\OneDrive - VNU-HCMUS\\SampleData\\Test1.jpg'</defaultValue>
+      <description></description>
+      <id>e47f2f73-c34d-40b2-9813-751db8c59451</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+   <variable>
+      <defaultValue>200</defaultValue>
+      <description></description>
+      <id>90bdd9d3-9317-46fd-a865-49ddf4fb2829</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>5c06ea22-cc90-444b-835a-4259c2e0afcc</id>
+      <masked>false</masked>
+      <name>isAuthorize</name>
+   </variable>
+</TestCaseEntity>

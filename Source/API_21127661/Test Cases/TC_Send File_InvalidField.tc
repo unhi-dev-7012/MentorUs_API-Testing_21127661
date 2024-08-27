@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Send File_InvalidField</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2e25b58c-f4bf-4abc-8479-77f375d8923e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1b75ed44-b4f7-4586-89e5-d177161f94cd</id>
+      <masked>false</masked>
+      <name>groupId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ff938557-cf46-4822-ad90-692219a2b8b7</id>
+      <masked>false</masked>
+      <name>senderId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e0fa0cc7-827c-4c2a-9ec8-ca60e853d989</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+   <variable>
+      <defaultValue>400</defaultValue>
+      <description></description>
+      <id>2529798a-89bf-4a35-b8a4-b3855b01e022</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

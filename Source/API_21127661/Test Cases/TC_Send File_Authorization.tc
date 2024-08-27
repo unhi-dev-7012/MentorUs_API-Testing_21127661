@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Send File_Authorization</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5fea5178-53cd-4c7f-aafe-141873b4c61e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e021b094-a016-447b-85d6-9b43223ac91a</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+   <variable>
+      <defaultValue>'empty'</defaultValue>
+      <description></description>
+      <id>2ecc1cfe-1c41-47a9-ae31-2e988439c1b1</id>
+      <masked>false</masked>
+      <name>tokenState</name>
+   </variable>
+   <variable>
+      <defaultValue>401</defaultValue>
+      <description></description>
+      <id>7623a23d-8c90-438e-b271-64bd9dde31b5</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

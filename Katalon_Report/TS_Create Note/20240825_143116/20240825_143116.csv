@@ -1,0 +1,156 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Create Note,,,,25-08-2024 14:31:23,25-08-2024 14:31:29,5.624s,PASSED
+,,,,,,,
+Test Cases/TC_Create Note,,,,25-08-2024 14:31:23,25-08-2024 14:31:26,2.991s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 14:31:24,25-08-2024 14:31:24,0.153s,PASSED
+"req = findTestObject(""API_Create Note"", [""title"":title, ""content"":content, ""userIds"":userIds])",,,,25-08-2024 14:31:24,25-08-2024 14:31:24,0.085s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 14:31:24,25-08-2024 14:31:24,0.044s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 14:31:24,25-08-2024 14:31:24,0.003s,PASSED
+res = sendRequest(req),,,,25-08-2024 14:31:24,25-08-2024 14:31:26,1.683s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.038s,PASSED
+"verifyElementPropertyValue(res, ""title"", title, CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.135s,PASSED
+"verifyElementPropertyValue(res, ""content"", content, CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.047s,PASSED
+"users = getElementPropertyValue(res, ""users"", CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.056s,PASSED
+users = users.sort({ java.lang.Object user -> ... }),,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.012s,PASSED
+userIdList =  }).sort(),,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.014s,PASSED
+"for ([i = 0, i < userIdList.size(), (i++)])",,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.030s,PASSED
+,,,,,,,
+Test Cases/TC_Create Note,,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.211s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.002s,PASSED
+"req = findTestObject(""API_Create Note"", [""title"":title, ""content"":content, ""userIds"":userIds])",,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.008s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.039s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.003s,PASSED
+"verifyElementPropertyValue(res, ""title"", title, CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.038s,PASSED
+"verifyElementPropertyValue(res, ""content"", content, CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.041s,PASSED
+"users = getElementPropertyValue(res, ""users"", CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.036s,PASSED
+users = users.sort({ java.lang.Object user -> ... }),,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.001s,PASSED
+userIdList =  }).sort(),,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.001s,PASSED
+"for ([i = 0, i < userIdList.size(), (i++)])",,,,25-08-2024 14:31:26,25-08-2024 14:31:26,0.007s,PASSED
+,,,,,,,
+Test Cases/TC_Create Note,,,,25-08-2024 14:31:26,25-08-2024 14:31:27,0.207s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.000s,PASSED
+"req = findTestObject(""API_Create Note"", [""title"":title, ""content"":content, ""userIds"":userIds])",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.007s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.037s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.004s,PASSED
+"verifyElementPropertyValue(res, ""title"", title, CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.038s,PASSED
+"verifyElementPropertyValue(res, ""content"", content, CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.045s,PASSED
+"users = getElementPropertyValue(res, ""users"", CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.031s,PASSED
+users = users.sort({ java.lang.Object user -> ... }),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.001s,PASSED
+userIdList =  }).sort(),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.001s,PASSED
+"for ([i = 0, i < userIdList.size(), (i++)])",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.006s,PASSED
+,,,,,,,
+Test Cases/TC_Create Note,,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.178s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.001s,PASSED
+"req = findTestObject(""API_Create Note"", [""title"":title, ""content"":content, ""userIds"":userIds])",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.007s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.026s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.003s,PASSED
+"verifyElementPropertyValue(res, ""title"", title, CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.040s,PASSED
+"verifyElementPropertyValue(res, ""content"", content, CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.036s,PASSED
+"users = getElementPropertyValue(res, ""users"", CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.034s,PASSED
+users = users.sort({ java.lang.Object user -> ... }),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.001s,PASSED
+userIdList =  }).sort(),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.001s,PASSED
+"for ([i = 0, i < userIdList.size(), (i++)])",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.003s,PASSED
+,,,,,,,
+Test Cases/TC_Create Note_ErrorFields,,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.339s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.002s,PASSED
+"req = findTestObject(""API_Create Note"", [""title"":title, ""content"":content, ""userIds"":userIds])",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.006s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.004s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.002s,PASSED
+res = sendRequest(req),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.017s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.003s,PASSED
+if (expected.intValue() != 403),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.042s,PASSED
+,,,,,,,
+Test Cases/TC_Create Note_ErrorFields,,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.078s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.001s,PASSED
+"req = findTestObject(""API_Create Note"", [""title"":title, ""content"":content, ""userIds"":userIds])",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.005s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.013s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.002s,PASSED
+if (expected.intValue() != 403),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.035s,PASSED
+,,,,,,,
+Test Cases/TC_Create Note_ErrorFields,,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.065s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.001s,PASSED
+"req = findTestObject(""API_Create Note"", [""title"":title, ""content"":content, ""userIds"":userIds])",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.013s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.002s,PASSED
+if (expected.intValue() != 403),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.027s,PASSED
+,,,,,,,
+Test Cases/TC_Create Note_ErrorFields,,,,25-08-2024 14:31:27,25-08-2024 14:31:28,0.042s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.001s,PASSED
+"req = findTestObject(""API_Create Note"", [""title"":title, ""content"":content, ""userIds"":userIds])",,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.004s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 14:31:27,25-08-2024 14:31:27,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 14:31:27,25-08-2024 14:31:28,0.017s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.001s,PASSED
+if (expected.intValue() != 403),,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Create Note_ErrorFields,,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.052s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.001s,PASSED
+"req = findTestObject(""API_Create Note"", [""title"":title, ""content"":content, ""userIds"":userIds])",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.006s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.022s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.002s,PASSED
+if (expected.intValue() != 403),,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.000s,PASSED
+,,,,,,,
+Test Cases/TC_Create Note_BoundaryFields,,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.412s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.003s,PASSED
+"if (isTitleTest == ""true"")",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.005s,PASSED
+else,,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.004s,PASSED
+return (a * 65000),,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.007s,PASSED
+"req = findTestObject(""API_Create Note"", [""title"":title, ""content"":content, ""userIds"":userIds])",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.007s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.005s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.002s,PASSED
+res = sendRequest(req),,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.032s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.004s,PASSED
+"verifyElementPropertyValue(res, ""title"", title, CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.038s,PASSED
+"verifyElementPropertyValue(res, ""content"", content, CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.026s,PASSED
+"users = getElementPropertyValue(res, ""users"", CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.023s,PASSED
+users = users.sort({ java.lang.Object user -> ... }),,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.002s,PASSED
+userIdList =  }).sort(),,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.003s,PASSED
+"for ([i = 0, i < userIdList.size(), (i++)])",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.006s,PASSED
+,,,,,,,
+Test Cases/TC_Create Note_BoundaryFields,,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.154s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, (Bearer  + internal.GlobalVariable.token))",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.002s,PASSED
+"if (isTitleTest == ""true"")",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.000s,PASSED
+else,,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.001s,PASSED
+return (a * 65000),,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.002s,PASSED
+"req = findTestObject(""API_Create Note"", [""title"":title, ""content"":content, ""userIds"":userIds])",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.006s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.000s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.001s,PASSED
+res = sendRequest(req),,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.027s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.002s,PASSED
+"verifyElementPropertyValue(res, ""title"", title, CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.031s,PASSED
+"verifyElementPropertyValue(res, ""content"", content, CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.034s,PASSED
+"users = getElementPropertyValue(res, ""users"", CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.027s,PASSED
+users = users.sort({ java.lang.Object user -> ... }),,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.000s,PASSED
+userIdList =  }).sort(),,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.001s,PASSED
+"for ([i = 0, i < userIdList.size(), (i++)])",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.001s,PASSED
+,,,,,,,
+Test Cases/TC_Create Note_Authorization,,,,25-08-2024 14:31:28,25-08-2024 14:31:29,0.281s,PASSED
+"if (tokenState == ""empty"")",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.002s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.000s,PASSED
+"req = findTestObject(""API_Create Note"", [""title"":title, ""content"":content, ""userIds"":userIds])",,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.008s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.005s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 14:31:28,25-08-2024 14:31:28,0.002s,PASSED
+res = sendRequest(req),,,,25-08-2024 14:31:28,25-08-2024 14:31:29,0.014s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:29,25-08-2024 14:31:29,0.004s,PASSED
+,,,,,,,
+Test Cases/TC_Create Note_Authorization,,,,25-08-2024 14:31:29,25-08-2024 14:31:29,0.046s,PASSED
+"if (tokenState == ""empty"")",,,,25-08-2024 14:31:29,25-08-2024 14:31:29,0.001s,PASSED
+"else if (tokenState == ""incorrect"")",,,,25-08-2024 14:31:29,25-08-2024 14:31:29,0.002s,PASSED
+"authorizationHeader = new com.kms.katalon.core.testobject.TestObjectProperty(Authorization, com.kms.katalon.core.testobject.ConditionType.EQUALS, tokenValue)",,,,25-08-2024 14:31:29,25-08-2024 14:31:29,0.001s,PASSED
+"req = findTestObject(""API_Create Note"", [""title"":title, ""content"":content, ""userIds"":userIds])",,,,25-08-2024 14:31:29,25-08-2024 14:31:29,0.005s,PASSED
+getHttpHeaderProperties().removeIf({ -> ... }),,,,25-08-2024 14:31:29,25-08-2024 14:31:29,0.001s,PASSED
+getHttpHeaderProperties().add(authorizationHeader),,,,25-08-2024 14:31:29,25-08-2024 14:31:29,0.000s,PASSED
+res = sendRequest(req),,,,25-08-2024 14:31:29,25-08-2024 14:31:29,0.014s,PASSED
+"verifyResponseStatusCode(res, expected.intValue(), CONTINUE_ON_FAILURE)",,,,25-08-2024 14:31:29,25-08-2024 14:31:29,0.003s,PASSED
